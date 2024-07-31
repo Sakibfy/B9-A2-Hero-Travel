@@ -1,15 +1,17 @@
 @media screen and (max-width: 576px) {
   header{
- width: 100%;
- height: 100%;
- margin: 18px 10px;
- padding: 10px;
- border: 1px solid red;
+ width: 95%;
+ height: 90%;
+ margin: 0 10px;
+}
+nav ul li{
+  padding: 0;
 }
 .logo img{
   width: 28px;
   height: 33.52px;
-  margin-right: 9px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .logo_title {
 font-size: 22px;
@@ -19,6 +21,73 @@ nav ul li a{
 display: none;
 }
 .fa-solid{
+  margin-right: 10px;
   display: block;
+}
+
+/* banner arae */
+.banner_area{
+  width: 535px;
+  height: 470px;
+  border-radius: 16px;
+  position: relative;
+  margin: 0 auto;
+}
+.banner_container{
+  width: 90%;
+  height: 99px;
+  margin: 10px;
+}
+.banner_container h1{
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.banner_container p{
+  font-size: 16px;
+  line-height: 21px;
+ margin-right: 20px;
+}
+.input_container{
+  width: 92%;
+  height: 284px;
+  flex-direction: column;
+  display: block;
+  margin: 32px auto;
+  margin-left: 25px;
+  
+}
+ input, select, option, .btn{
+  width: 374px;
+  height: 52px;
+  margin: 10px;
+  padding-left: 10px;
+}
+.btn {
+font-weight: 600;
+display: flex;
+justify-content: center;
+margin-left: 40px;
+padding-top: 15px;
+}
+.fa-solid{
+  font-size: 18px;
+  padding: 4px;
+}
+
+/* populer-section  */
+.Popular_section{
+  width: 92%;
+  height: 100%;
+  margin: 24px;
+  flex-direction: column;
+}
+.populer_container{
+  width: 100%;
+}
+.populer_img img{
+  width: 100%;
 }
 }

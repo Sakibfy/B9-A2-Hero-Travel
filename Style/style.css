@@ -117,5 +117,90 @@ color: #FF5400;
 /* popular-section-style  */
 
 .Popular_section{
-
+  width: 1170px;
+  height: 560px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
 }
+.populer_container{
+  width: 45%;
+}
+.populer_container h2{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.populer_container .first_para,.last_para{
+font-size: 16px;
+line-height: 26px;
+color: rgba(19,19,24, 70%);
+margin-bottom: 20px;
+}
+.populer_container li{
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(19,19,24, 70%);
+  margin-bottom: 16px;
+  margin-left:  5px;
+}
+.populer_btn{
+  background: #FF5400;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 174px;
+  height: 52px;
+  margin: 16px 10px;
+  margin-left: -5px;
+}
+
+ /* <!-- Destination section style --> */
+
+.destination_section_area{
+  width: 1170px;
+  height: 935px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.destination_container h2{
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+}
+.destination_container p{
+  font-size: 16px;
+  color: rgba(19,19,24, 70%);
+  line-height: 26px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
