@@ -97,10 +97,11 @@ padding-top: 15px;
   height: 100%;
 }
 .destination_container{
-  width: 98%;
+  width: 70%;
+  margin-left: 70px;
 }
 .destination_container h2{
-  font-size: 20px;
+  font-size: 30px;
 font-weight: 800;
 }
 .destination_container p{
@@ -119,7 +120,6 @@ font-weight: 800;
 .img_3, .img_4, .img_5, .img_6, .img_7{
   width: 100%;
   height: 100%;
-  border: 1px solid red;
   position: relative;
 }
 .img_3 img, .img_4 img, .img_5 img, .img_6 img, .img_7 img{
@@ -183,6 +183,43 @@ font-weight: 800;
   left: 180px;
   font-weight: 800;
   font-size: 28px; }
-
-
+/* Choose us section style */
+.Choose_us_section{
+  width: 94%;
+  height: 100%;
+  margin: 24px auto ;
+}
+.choose_us_container{
+  width: 70%;
+  margin-left: 70px;
+}
+.choose_us_container h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.choose_us_container p{
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+.card_container{
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.Hotel_card{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 16px;
+}
+.servise_card{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 16px;
+}
+.price_card{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 }
