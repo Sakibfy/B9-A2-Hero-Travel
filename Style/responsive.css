@@ -222,4 +222,107 @@ font-weight: 800;
   height: 100%;
   margin: 0;
 }
+
+/* Deals_Discounts_section style */
+.Deals_Discounts_section{
+  width: 94%;
+  height: 100%;
+  margin: 24px auto;
+}
+.deal_discount_container{
+width: 80%;
+margin-left: 70px;
+}
+.deal_discount_container h3{
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.deal_card_1 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.book_now{
+width: 90%;
+height: 60%;
+position: absolute;
+top: 180px;
+right: 30px;
+}
+.book_now_2{
+ top: 180px;
+left: 30px; 
+}
+.child_book_now{
+  margin: 20px 43px 14px 36px;
+  display: flex;
+}
+.book_title h3{
+margin-bottom: 14px;
+font-size: 24px;
+font-weight: 700;
+}
+.book_title p{
+margin-bottom: 12px;
+font-size: 16px;
+line-height: 20px;
+}
+.book_title h2{
+   margin-bottom: 10px;
+}
+#book_btn{
+width: 150px;
+}
+#Packages_btn{
+display: none;
+margin: 0;
+}
+ /* <!-- Perfect Place section-style --> */
+   .Place_section{
+    width: 94%;
+    height: 100%;
+    margin: 24px;
+   flex-direction: column;
+   }
+    .place_text_container{
+    width: 100%;
+    height: 100%;
+   }
+   .place_img_container{
+     width: 100%;
+    height: 100%;
+    margin-top: 20px;
+   }
+   .place_img_container img{
+     width: 100%;
+    height: 100%;
+   }
+
+/* NewsLetter_section_style */
+
+.Newsletter_section{
+  width: 94%;
+  height: 100%;
+  margin: 24px;
+  flex-direction: column;
+  gap: 16px;
+}
+.news_container{
+  width: 100%;
+}
+.news_img_container{
+  width: 100%;
+}
+.news_img_container img{
+  width: 100%;
+  position: relative;
+}
+.Token_card{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  right: 10px;
+  top: 190px;
+}
 }

@@ -296,7 +296,6 @@ text-align: center;
   width: 1170px;
   height: 780px;
   margin: 300px auto 0;
-  border: 1px solid red;  
 }
 .choose_us_container{
   text-align: center;
@@ -368,7 +367,6 @@ text-align: center;
 .Deals_Discounts_section{
   width: 1170px;
   height: 100%;
-  border: 1px solid red;
   margin: 100px auto;
 }
 .deal_discount_container{
@@ -444,11 +442,119 @@ line-height: 26px;
 #book_btn{
   margin-left: -2px;
 }
+#Packages_btn{
+  margin: 24px 480px 0;
+}
 
 
+   /* <!-- Perfect Place section-style --> */
+   .Place_section{
+    width: 1170px;
+    height: 425px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+   }
+   .place_text_container{
+    width: 48%;
+    height: 100%;
+   }
+   .place_text_container h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+   }
+   .place_text_container p{
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: rgba(90,90,93, 100%);
+   }
+   .place_text_container li{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+    color: #131318;
+   }
 
 
+   .place_img_container{
+     width: 52%;
+    height: 100%;
+   }
 
+
+   /* NewsLetter_section_style */
+
+.Newsletter_section{
+  width: 1170px;
+  height: 422px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.news_container{
+  border: 2px solid #FF5400;
+  border-radius: 10px;
+  width: 40%;
+}
+.news_container h4{
+  margin: 40px 308px 16px 40px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.news_container p{
+  margin: 0 84px 48px 40px;
+  font-size: 16px;
+  color: #5a5a5d;
+  line-height: 26px;
+}
+
+form input{
+display: block;
+margin: 0 41px 24px 40px;
+width: 393px;
+background-color: rgba(19,19,24, 5%);
+border-radius: 8px;
+margin-bottom: 16px;
+}
+input::placeholder{
+  font-size: 16px;
+  color: rgba(19,19,24, 30%);
+  padding: 20px;
+}
+.news_img_container{
+  width: 60%;
+  position: relative;
+}
+#news_btn{
+  margin-left: 40px;
+  width: 393px;
+}
+.Token_card{
+  position: absolute;
+  width: 324px;
+  height: 120px;
+  background-color: #FF5400;
+  border-radius: 18px;
+  right: 17px;
+  top: 250px;
+  transform: rotate(-20deg);
+}
+.Token_child_card{
+  margin: 20px 30px;
+  text-align: center;
+}
+.Token_child_card p{
+  font-size: 24px;
+  color: #ffffff;
+}
+.Token_child_card h2{
+  font-size: 32px;
+  color: #ffffff;
+}
 
 
 
