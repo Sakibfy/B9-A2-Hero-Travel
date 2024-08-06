@@ -63,6 +63,7 @@ color: #FF5400;
   background-position: center;
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0)),  url(../Images/banner.png);
   /* background-image: url(../Images/bd-mountain.png); */
+  background-image: url(../Images/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
